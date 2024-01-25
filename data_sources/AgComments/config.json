@@ -1,0 +1,10 @@
+{
+    "name": "AgComments",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "AgComments",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

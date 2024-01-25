@@ -1,0 +1,16 @@
+[
+    {
+        "name": "resetFunc",
+        "private": false
+    },
+    {
+        "name": "addPublication",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "listPublications",
+        "private": false,
+        "run_as_system": true
+    }
+]
