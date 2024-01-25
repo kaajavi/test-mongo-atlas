@@ -1,6 +1,5 @@
 // This function is the endpoint's request handler.
 exports = function(payload, response) {
-
     // Data can be extracted from the request as follows:
     const responseData = {};
     const user_id = payload.headers["x-us"] || 0;
