@@ -1,8 +1,5 @@
 // This function is the endpoint's request handler.
 exports = async function(payload, response) {
-    // Data can be extracted from the request as follows:
-    const user_id = payload.headers["x-UserId"] || 0;
-
     // Raw request body (if the client sent one).
     // This is a binary object that can be accessed as a string using .text()
     const {filter, course, material, page, pager} = payload.query;
